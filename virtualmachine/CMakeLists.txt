@@ -1,1 +1,1 @@
-add_executable(virtualmachine src/main.c)
+add_executable(virtualmachine src/main.c src/stack.h src/virtual_machine.h src/instruction.h)
